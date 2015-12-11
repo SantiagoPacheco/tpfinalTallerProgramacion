@@ -32,9 +32,11 @@ namespace CorreoServicio
 
                 Gmail servicioGmail = new Gmail();
                 Yahoo servicioYahoo = new Yahoo();
+                MailTrap servicioMailTrap = new MailTrap();
 
                 this.iServicios.Add("Gmail", servicioGmail);
                 this.iServicios.Add("Yahoo", servicioYahoo);
+                this.iServicios.Add("MailTrap",servicioMailTrap);
             }
 
         /// <summary>
